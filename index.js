@@ -2,8 +2,11 @@ const PORT = 3000;
 const express = require('express');
 const server = express();
 const { client } = require('./db');
-const apiRouter = require('./api');
 const morgan = require('morgan');
+const apiRouter = require('./api');
+require('dotenv').config();
+
+// EVERYTHING ELSE
 client.connect();
 
 server.use(morgan('dev'));

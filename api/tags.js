@@ -7,4 +7,4 @@ tagsRouter.get('/', (req, res) => {
     });
 });
   
-module.export = tagsRouter;
+module.exports = tagsRouter;

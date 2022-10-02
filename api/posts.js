@@ -7,4 +7,4 @@ postsRouter.get('/', (req, res) => {
     });
 });
 
-module.export = postsRouter;
+module.exports = postsRouter;
